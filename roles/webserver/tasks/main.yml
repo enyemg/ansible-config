@@ -1,4 +1,3 @@
-# tasks file for webserver
 ---
 - name: install apache
   become: true
@@ -34,3 +33,4 @@
   ansible.builtin.file:
     path: /var/www/html/html
     state: absent
+
