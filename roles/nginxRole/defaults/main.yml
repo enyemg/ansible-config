@@ -17,8 +17,6 @@ enable_nginx_lb: false
 nginx_service_state: started
 nginx_service_enabled: true
 
-load_balancer_is_required: false
-
 nginx_conf_template: "nginx.conf.j2"
 nginx_vhost_template: "vhost.j2"
 
