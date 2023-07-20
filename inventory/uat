@@ -1,5 +1,5 @@
 [webservers]
-172.31.34.12
+172.31.34.12 ansible_ssh_user='ec2-user'
 #172.31.34.164 ansible_ssh_user='ec2-user'
 
 # [db]
