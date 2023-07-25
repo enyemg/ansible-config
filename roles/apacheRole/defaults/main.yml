@@ -65,3 +65,7 @@ apache_packages_state: present
 loadbalancer_name: "myapp1"
 web1: "172.31.34.12"
 web2: "172.31.34.164"
+
+#*****************vars for loadbalancing status***************
+enable_apache_lb: true
+load_balancer_is_required: true

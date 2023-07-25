@@ -35,7 +35,7 @@
   blockinfile:
      path: /etc/hosts
      block: |
-     {{ item.ip }} {{ item.name }}
+       {{ item.name }} {{ item.ip }}
   loop:
     - { name: web1, ip: 172.31.34.12 }
     - { name: web2, ip: 172.31.34.164 }     

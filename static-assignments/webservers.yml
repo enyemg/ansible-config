@@ -1,5 +1,6 @@
 ---
 - hosts: webservers
   roles:
-     - webserver
-  become: true
+    - /home/ubuntu/ansible-config/roles/webserver
+  
+
